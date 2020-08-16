@@ -1,0 +1,210 @@
+body {
+  background: #457fca;
+  background: -webkit-linear-gradient(to right, #5691c8, #457fca);
+  background: linear-gradient(to right, #5691c8, #457fca);
+}
+/* Contenedor de la Vista de los numeros */
+.vista {
+  position: absolute;
+  border: solid;
+  background-color: black;
+  color: white;
+  border: solid 10px #282d3e;
+  width: 380px;
+  height: 90px;
+  display: flex;
+  margin-top: 0px;
+  flex-direction: row;
+}
+
+.vista p {
+  display: inline-block;
+  padding: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 35px;
+}
+/* ------------------------------------------------------- */
+
+.calculadora {
+  background-color: #3a405a;
+  border-radius: 20px;
+  border: ridge 15px;
+  border-color: #6a76a0;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  margin-top: 180px;
+  position: relative;
+  box-shadow: 100px;
+}
+
+.numeros {
+  margin: auto;
+  margin-top: 40%;
+  margin-left: 10px;
+  height: 310px;
+  width: 255px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  float: left;
+}
+
+.operaciones {
+  float: right;
+  position: absolute;
+  margin-left: 288px;
+  margin-top: 150px;
+  height: 340px;
+  width: 100px;
+}
+
+input {
+  border: outset rgb(4, 77, 155) 4px;
+  background-color: #e98335;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-style: oblique;
+  border-radius: 25px;
+  font-size: 25px;
+  height: 70px;
+  width: 70px;
+  margin: auto;
+}
+/* Contenedores de filas de Numeros */
+.fila1 {
+  justify-content: center;
+  padding: 5px;
+  margin: 2px;
+  height: 40px;
+}
+
+.fila2 {
+  justify-content: center;
+  padding: 5px;
+  height: 40px;
+}
+
+.fila3 {
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  height: 40px;
+}
+
+.fila4 {
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.fila5 {
+  justify-content: center;
+  padding: 3px;
+  margin-left: 20px;
+  height: 80px;
+}
+/* ========================================================== */
+
+/* Estilos de Botones de operadores */
+#igual {
+  justify-content: center;
+  margin-top: 15px;
+  height: 40px;
+}
+
+.limpiar {
+  justify-content: center;
+  margin-top: 15px;
+  height: 40px;
+  background-color: #c54930;
+}
+
+.multi {
+  margin-top: 15px;
+  height: 40px;
+}
+
+.divi {
+  margin-top: 15px;
+  height: 40px;
+}
+
+.sum {
+  margin-top: 15px;
+  height: 40px;
+}
+
+.restar {
+  margin-top: 15px;
+  height: 40px;
+}
+
+/* ======================================================== */
+
+/* Efectos Hover */
+
+.sum:hover {
+  background-color: #78a975;
+  opacity: 80%;
+}
+.divi:hover {
+  background-color: #78a975;
+  opacity: 80%;
+}
+.multi:hover {
+  background-color: #78a975;
+  opacity: 80%;
+}
+.restar:hover {
+  background-color: #78a975;
+  opacity: 80%;
+}
+.limpiar:hover {
+  background-color: #78a975;
+  opacity: 80%;
+}
+.igual:hover {
+  background-color: #78a975;
+}
+
+#num1:hover {
+  background-color: #fe5f55;
+}
+
+#num2:hover {
+  background-color: #fe5f55;
+}
+#num3:hover {
+  background-color: #fe5f55;
+}
+
+#num4:hover {
+  background-color: #2ab7ca;
+}
+#num5:hover {
+  background-color: #2ab7ca;
+}
+#num6:hover {
+  background-color: #2ab7ca;
+}
+
+#num7:hover{
+  background-color: #987284;
+}
+#num8:hover{
+  background-color: #987284;
+}
+#num9:hover{
+  background-color: #987284;
+}
+
+#punto:hover{
+  background-color: #1C809B;
+}
+#num0:hover{
+  background-color: #E7E393;
+}
+
